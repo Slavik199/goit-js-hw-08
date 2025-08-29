@@ -85,7 +85,7 @@ const markup = images
 
 galleryEl.insertAdjacentHTML("beforeend", markup);
 
-galleryEl.addEventListener("clack", onGalleryClick);
+galleryEl.addEventListener("click", onGalleryClick);
 
 function onGalleryClick(event) {
     event.preventDefault();
